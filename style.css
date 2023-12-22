@@ -114,3 +114,27 @@ button {
     width: 200px;
     text-align: center;
 }
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 56px 128px;
+}
+
+.quote-content .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;    
+}
+
+.quote-content .author {
+    text-align: end;
+}
+
+.quote-content .quote-box {
+    max-width: 400px;
+}
