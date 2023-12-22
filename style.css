@@ -177,3 +177,15 @@ a {
     border-radius: 12px;
     border: 2px solid #F9FAF8;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    margin-top: auto;
+}
+
+.footer p {
+    color: #F9FAF8;
+}
