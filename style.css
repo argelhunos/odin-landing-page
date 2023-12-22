@@ -73,7 +73,7 @@ a {
 }
 
 
-button {
+.hero-text button {
     background-color: #3882F6;
     max-width: fit-content;
     padding: 8px 32px;
@@ -137,4 +137,43 @@ button {
 
 .quote-content .quote-box {
     max-width: 400px;
+}
+
+.signup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 128px;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 128px;
+    background-color: #3882F6;
+    flex: 1;
+    max-width: 1000px;
+    border-radius: 4px;
+}
+
+.signup-box .title {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.signup-box p {
+    margin: 8px;
+    color: #E5E7EB;
+}
+
+.signup-box button {
+    flex-grow: 0;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 12px;
+    border: 2px solid #F9FAF8;
 }
